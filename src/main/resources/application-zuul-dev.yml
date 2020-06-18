@@ -2,12 +2,16 @@ server:
   port: 1299
 
 zuul:
+  ignored-services: '*'
+  prefix: /services
   routes:
     system:     # 路由名称
       path: /system/**       # 路由匹配的路径
       serviceId: system-service       # 路径匹配的服务名称
-  ignored-services: '*'
-  prefix: /services
+    course:     # 路由名称
+      path: /course/**       # 路由匹配的路径
+      serviceId: course-service       # 路径匹配的服务名称
+
 
 eureka:
   client:
