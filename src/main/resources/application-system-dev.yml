@@ -18,6 +18,3 @@ spring:
     password: 123456
   application:
       name: SYSTEM-SERVICE
-logging:
-  level:
-    cn.yinsh.hrm:debug
