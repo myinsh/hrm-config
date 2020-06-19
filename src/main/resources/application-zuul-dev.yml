@@ -10,8 +10,10 @@ zuul:
       serviceId: system-service       # 路径匹配的服务名称
     course:     # 路由名称
       path: /course/**       # 路由匹配的路径
-      serviceId: course-service       # 路径匹配的服务名称
-
+      serviceId: course-service       # 路径匹配的服务名
+    file:     # 路由名称
+      path: /file/**       # 路由匹配的路径
+      serviceId: file-service       # 路径匹配的服务名
 
 eureka:
   client:
