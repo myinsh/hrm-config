@@ -18,3 +18,18 @@ spring:
     password: 123456
   application:
       name: COURSE-SERVICE
+feign:
+   hystrix:
+       enabled: true
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 6000
+
+ribbon:
+  ConnectTimeout: 6000
+  ReadTimeout: 6000
