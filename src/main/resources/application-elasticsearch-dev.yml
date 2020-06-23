@@ -6,7 +6,7 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     prefer-ip-address: true #以ip进行注册
-    instance-id: elasticsearch-service:8001 #注册的服务的实例的标识
+    instance-id: elasticsearch-service:8003 #注册的服务的实例的标识
 
 spring:
   application:
