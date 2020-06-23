@@ -17,6 +17,9 @@ zuul:
     cache:     # 路由名称
       path: /cache/**       # 路由匹配的路径
       serviceId: cache-service       # 路径匹配的服务名
+    elasticsearch:     # 路由名称
+      path: /elasticsearch/**       # 路由匹配的路径
+      serviceId: elasticsearch-service       # 路径匹配的服务名
 
 eureka:
   client:
