@@ -23,6 +23,9 @@ zuul:
     user:     # 路由名称
       path: /user/**       # 路由匹配的路径
       serviceId: user-service       # 路径匹配的服务名
+    sms:     # 路由名称
+      path: /sms/**       # 路由匹配的路径
+      serviceId: sms-service       # 路径匹配的服务名
 
 eureka:
   client:
