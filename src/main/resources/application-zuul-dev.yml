@@ -20,6 +20,9 @@ zuul:
     elasticsearch:     # 路由名称
       path: /elasticsearch/**       # 路由匹配的路径
       serviceId: elasticsearch-service       # 路径匹配的服务名
+    user:     # 路由名称
+      path: /user/**       # 路由匹配的路径
+      serviceId: user-service       # 路径匹配的服务名
 
 eureka:
   client:
